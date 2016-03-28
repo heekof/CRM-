@@ -1,0 +1,145 @@
+/*******************************************************
+** Ce programme est realisé par WEBKALOR OFFSHORE                                      **
+**     DESIGN   ETIKEO-PRIVILEGE                                                                        **
+** http://www.webkalor.net                                                                                       **
+**  info@webkalor.net                                                                                                **
+**                                                                                                                                   **
+**  Copyright 2010-2011   par WEBKALOR-OFFSHORE                                         **
+*******************************************************
+*******************************
+* ETIKEO-PRIVILEGE v1.0 - 18/03/2011 *
+*******************************/
+img {
+	border:0 none;
+}
+.middle_inner_section {
+	float:left;
+	width:100%;
+}
+.sub_heading {
+	border-bottom:1px solid  #CCC;
+	margin:0 5px 10px 0;
+	padding:5px 0 0;
+}
+h1 {
+	color:#666666;
+	float:right;
+	font-family:Myriad Pro;
+	font-size:23px;
+	font-weight:bold;
+	margin:5px 0;
+	padding:25px 0 0 10px;
+	text-align:right;
+	width:60%;
+}
+h2 {
+	color:#666666;
+	font-size:14px;
+	font-weight:bold;
+}
+h3 {
+	color:#000000;
+	font-size:13px;
+	font-weight:bold;
+	margin:0;
+	/*padding:0 0 3px 8px;*/
+	padding:0px 0px 5px 0px;
+}
+.content_text {
+	color:#000000;
+	font-size:12px;
+	padding:0 10px 0;
+}
+.content_table {
+}
+#content_tables {
+width:98%;
+}
+#content_tablef {
+width:95%;
+}
+.content_table th {
+	border-bottom:1px solid  #CCC;
+	/*padding:5px;*/
+	padding:5px 5px 5px 0px;
+}
+.content_table td {
+	border:0 none;
+	padding:8px 0 0;
+}
+.print  td {
+	border:0 none;
+	padding:8px 0 0;
+}
+.content_tablef td {
+	border:0 none;
+	padding:5px 0 0;
+}
+.content_table td.seperator {
+border-bottom:1px solid  #CCC;
+}
+td.seperator {
+border-bottom:1px solid  #CCC;
+}
+.content_table table th {
+	border:0 none;
+	padding:3px;
+}
+.content_table ul {
+	list-style-type:none;
+}
+.content_table ol {
+	padding:2px 0 2px 20px;
+}
+
+.sub_heading_order {
+	border-bottom:1px solid #ccc !important;
+	margin:0 5px 10px 0;
+	padding:5px 0 0;
+	font-size:20px;
+}
+
+.page_heading {
+	border-bottom:1px solid #ccc;
+	margin:0 0 10px;
+}
+.logo {
+	float:left;
+	width:35%;
+}
+li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.product_options {
+	line-height:18px;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+
+.action_button{
+	margin:2px;
+	padding:1px 3px 1px 3px;
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#0b53ae;
+}
+
+.order_content_table {
+	border:1px solid #ccc;
+}
+
+.order_content_table th {
+	border-bottom:1px solid #ccc;
+	padding:5px;
+}
+
+a img {
+border:0px solid red;
+}

@@ -1,0 +1,7 @@
+my $dev=0; // variable en perl
+my @mac; // tableau
+
+$mac = `2>/dev/nul ifconfig eth$dev | grep HW`;
+until ($mac =~ /HW/) { $mac = `2>/dev/null ifconfig eth$dev | grep HW `; $dev++}
+@mac = split(' ', $mac);
+$mac = $mac[4];

@@ -1,0 +1,39 @@
+*************************************************
+*       LISTE DES SCRIPTS POUR LE CRONTAB       *
+*************************************************
+
+Tous ces scripts se trouvent dans le dossier scripts/
+
+1. archivage.php
+
+	a) A quoi ça sert?
+	Ce script archive les entrées de la table cdr (les appels) qui dates de plus de dix jours 
+	vers la table cdr2. il est à noter que ces deux tables doivent toujours avoir le même schema!
+
+	l'objectif est de réduire la taille de la table cdr au fur et à mesure.
+
+
+
+	b) Fréquence de lancement:
+	il doit être lancé un fois par jour (au démarrage).
+
+
+2. archiver_credits.php
+
+	a) A quoi ça sert?
+	Ce script capture l'etat du credit de chaque client en un moment donné de la table credit vers
+	la table historique_credit. Cela donne une évolution de credit, et en même on s'en sert à evaluer la 
+	consommation de chaque client.
+
+	
+	b) Fréquence de lancement:
+	il doit être lancé toute les 30(trente) minutes.
+
+3. envoie_mails.php
+
+	a) A quoi ça sert?
+	Ce script envoye les mails.
+
+	
+	b) Fréquence de lancement:
+	il doit être lancé un fois par jour (au démarrage).
